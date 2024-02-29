@@ -1,0 +1,40 @@
+# Directories to ignore
+bin/
+obj/
+.vs/
+.vscode/
+
+# Files to ignore
+*.user
+*.userosscache
+*.suo
+*.tmp
+*.sln.docstates
+*.dbmdl
+*.dbproj.schemaview
+
+# Build outputs
+*.dll
+*.exe
+*.pdb
+*.cache
+*.runtimeconfig.json
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+*.csproj.nuget.*
+!**/packages/build/
+
+# Temporary files
+*.log
+*.tmp_proj
+*.[Cc]ache
+*.[Bb]ackup.*
+*.rptproj.bak
+
+# Others
+.DS_Store
+Thumbs.db
