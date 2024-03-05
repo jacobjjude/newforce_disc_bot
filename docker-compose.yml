@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  discordbot:
+    build: .
+    environment:
+      - DISCORD_BOT_TOKEN=${DISCORD_BOT_TOKEN}
+    # Removed volumes to ensure the container uses built application
+    command: dotnet main_bot.dll
